@@ -1,0 +1,143 @@
+1)
+C:\Users\meet.kothari>node --version
+v18.6.0
+
+C:\Users\meet.kothari>npm --version
+8.13.2
+
+2-a)
+function Welcome(x) {
+...     console.log(x);
+... }
+
+Welcome("Hello!NodeJs");
+Hello!NodeJs
+
+> x =1
+1
+> y =1
+1
+> x+y
+2
+> _+y
+
+
+2-b)
+> .help
+.break    Sometimes you get stuck, this gets you out
+.clear    Alias for .break
+.editor   Enter editor mode
+.exit     Exit the REPL
+.help     Print this help message
+.load     Load JS from a file into the REPL session
+.save     Save all evaluated commands in this REPL session to a file
+
+Press Ctrl+C to abort current expression, Ctrl+D to exit the REPL
+
+
+Press Ctrl+C to abort current expression, Ctrl+D to exit the REPL
+> .exit
+
+C:\Users\meet.kothari>
+
+2-c)
+> function yourName(x) {
+... console.log("Hello" + x)
+... console.log("Welcome to Blazeclan Tech")
+... console.log("Have a NICE day !");
+... }
+undefined
+>
+> yourName("Meet")
+HelloMeet
+Welcome to Blazeclan Tech
+Have a NICE day !
+undefined
+>
+
+2-d)
+> .save First.js
+Session saved to: First.js
+
+2-e)
+C:\Users\meet.kothari>node First.js
+HelloMeet
+Welcome to Blazeclan Tech
+Have a NICE day !
+
+C:\Users\meet.kothari>
+2-f)
+CTRL+L, cleared screen 
+2-g)
+explored node
+
+3)
+PS C:\Users\meet.kothari> cd '.\Desktop\Module 3\'
+PS C:\Users\meet.kothari\Desktop\Module 3> cd .\Data\
+PS C:\Users\meet.kothari\Desktop\Module 3\Data> node repl.js
+$ 1
+1
+$ 1+41
+42
+$ _+1
+43
+
+4)
+PS C:\Users\meet.kothari\Desktop\Module 3\Data> node repl.js
+$ 1+1
+2
+$ 2 = yield
+2 = yield  
+^
+
+Uncaught SyntaxError: Invalid left-hand side in assignment
+$ .exit
+Exiting REPL... 0
+PS C:\Users\meet.kothari\Desktop\Module 3\Data>
+
+5)
+ process.argv.forEach((value,index) => { console.log(`${index}: ${value}`);
+... });
+0: C:\Program Files\nodejs\node.exe
+
+6-b)
+PS C:\Users\meet.kothari\Desktop\Module 3\Data> node formatspecifire.js
+Testing format specifiers
+I have to complete 3 HansdOn
+8 handson are completed
+
+6-b)
+console.clear()
+
+6-b)
+PS C:\Users\meet.kothari\Desktop\Module 3\Data> node count.js
+orange: 1
+orange: 2
+
+6-c)
+
+trace :
+PS C:\Users\meet.kothari\Desktop\Module 3\Data> node trace.js
+Trace: Testing....
+    at Object.<anonymous> (C:\Users\meet.kothari\Desktop\Module 3\Data\trace.js:3:9)
+    at Module._compile (node:internal/modules/cjs/loader:1120:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1174:10)
+    at Module.load (node:internal/modules/cjs/loader:998:32)
+    at Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+Trace: No of emps: 39
+    at Object.<anonymous> (C:\Users\meet.kothari\Desktop\Module 3\Data\trace.js:5:9)
+    at Module._compile (node:internal/modules/cjs/loader:1120:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1174:10)
+    at Module.load (node:internal/modules/cjs/loader:998:32)
+    at Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+
+Time spent
+
+PS C:\Users\meet.kothari\Desktop\Module 3\Data> node timespent.js
+default: 2.335ms
+
+
